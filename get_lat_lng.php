@@ -48,30 +48,7 @@
         resultDiv.innerHTML = message;
     });
 
-    /*var obj = new Object();
-    obj.lat = latlng.getLat();
-    obj.lng = latlng.getLng();
-    console.log(obj.lat, obj.lng);
-    console.log(obj);
-    var latlngJson = JSON.stringify(obj);
-    console.log(latlngJson);
-
-    $.ajax({
-        url: 'latLng.json',
-        type: 'post',
-        dataType: 'json',
-        contentType : "application/json; charset=utf-8",
-        data: latlngJson,
-        success: function (data){
-            console.log(data);
-        },
-        error:function(request, status, error) {
-            console.log("status : " + request.status + "\n" + "message:" + request.responseText + "\n" + "error:" + error);
-        }
-    })
-
-*/
-
+   
 </script>
 </body>
 </html>
